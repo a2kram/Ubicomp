@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         mGraphFilteredMag.getViewport().setYAxisBoundsManual(true);
         mGraphFilteredMag.getViewport().setMinX(0);
         mGraphFilteredMag.getViewport().setMaxX(GRAPH_X_BOUNDS);
-        mGraphFilteredMag.getViewport().setMinY(-GRAPH_Y_BOUNDS);
+        mGraphFilteredMag.getViewport().setMinY(0);
         mGraphFilteredMag.getViewport().setMaxY(GRAPH_Y_BOUNDS);
         mT_FilteredMag.setColor(mGraphColor[0]);
         mT_FilteredMag.setThickness(10);
